@@ -34,16 +34,26 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 font-light max-w-3xl mx-auto">
-              Next.js 16 + Docker + Tailwind CSS 4 + Auth.js 5 + TypeScript starter template to kickstart your next project with modern best practices.
+              Next.js 16 + Docker + Tailwind CSS 4 + Auth.js 5 + TypeScript
+              starter template to kickstart your next project with modern best
+              practices.
             </p>
           </div>
 
           {/* Tech Stack */}
           <div className="flex flex-wrap gap-3 justify-center items-center">
-            <span className="px-3 py-1 text-sm font-medium bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full">Next.js 16</span>
-            <span className="px-3 py-1 text-sm font-medium bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full">TypeScript</span>
-            <span className="px-3 py-1 text-sm font-medium bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full">Docker</span>
-            <span className="px-3 py-1 text-sm font-medium bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full">Tailwind CSS 4</span>
+            <span className="px-3 py-1 text-sm font-medium bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full">
+              Next.js 16
+            </span>
+            <span className="px-3 py-1 text-sm font-medium bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full">
+              TypeScript
+            </span>
+            <span className="px-3 py-1 text-sm font-medium bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full">
+              Docker
+            </span>
+            <span className="px-3 py-1 text-sm font-medium bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full">
+              Tailwind CSS 4
+            </span>
           </div>
 
           {/* CTA Buttons */}

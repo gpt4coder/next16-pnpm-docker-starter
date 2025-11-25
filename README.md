@@ -8,16 +8,16 @@ This template gives you a minimal but opinionated foundation so you can focus on
 
 ## 🚀 Features
 
-* **Next.js 16.0.4** with App Router
-* **Next-Auth v5** complete open source authentication solution
-* **TypeScript** preconfigured
-* **PNPM** workspace-friendly setup
-* **Tailwind CSS v4+** with modern defaults
-* **LLM-safe API example** (sanitized inputs + safe output handling)
-* **Multi-stage Production Dockerfile** (tiny, fast, secure)
-* **CI workflow** with pnpm caching (GitHub Actions ready)
-* **Opinionated minimal file structure** for maximum clarity
-* **Ready for Vercel or containerized deployment**
+- **Next.js 16.0.4** with App Router
+- **Next-Auth v5** complete open source authentication solution
+- **TypeScript** preconfigured
+- **PNPM** workspace-friendly setup
+- **Tailwind CSS v4+** with modern defaults
+- **LLM-safe API example** (sanitized inputs + safe output handling)
+- **Multi-stage Production Dockerfile** (tiny, fast, secure)
+- **CI workflow** with pnpm caching (GitHub Actions ready)
+- **Opinionated minimal file structure** for maximum clarity
+- **Ready for Vercel or containerized deployment**
 
 ---
 
@@ -25,9 +25,9 @@ This template gives you a minimal but opinionated foundation so you can focus on
 
 Make sure you have:
 
-* **Node.js ≥ 20**
-* **PNPM ≥ 9**
-* **Docker (optional)** for production builds
+- **Node.js ≥ 20**
+- **PNPM ≥ 9**
+- **Docker (optional)** for production builds
 
 ---
 

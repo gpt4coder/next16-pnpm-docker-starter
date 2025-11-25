@@ -6,7 +6,8 @@ import BaseHeader from "@/components/base-header";
 
 export const metadata: Metadata = {
   title: "Next.js 16 Starter - Docker + TypeScript + Tailwind CSS",
-  description: "A modern, production-ready starter template for Next.js projects with Docker, TypeScript, and Tailwind CSS 4.",
+  description:
+    "A modern, production-ready starter template for Next.js projects with Docker, TypeScript, and Tailwind CSS 4.",
 };
 
 export default function RootLayout({
@@ -19,9 +20,7 @@ export default function RootLayout({
       <body className="bg-white dark:bg-gray-950">
         <ThemeProvider defaultTheme="dark">
           <BaseHeader />
-          <main>
-            {children}
-          </main>
+          <main>{children}</main>
         </ThemeProvider>
       </body>
     </html>
