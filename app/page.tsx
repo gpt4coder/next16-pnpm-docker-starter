@@ -34,9 +34,8 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 font-light max-w-3xl mx-auto">
-              Next.js 16 + Docker + Tailwind CSS 4 + Auth.js 5 + TypeScript
-              starter template to kickstart your next project with modern best
-              practices.
+              Next.js 16 + Docker + Tailwind CSS 4 + Auth.js 5 + TypeScript starter template to
+              kickstart your next project with modern best practices.
             </p>
           </div>
 
@@ -59,7 +58,13 @@ export default function Home() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <button className="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white bg-linear-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 cursor-pointer">
-              Get Started →
+              <a
+                href="https://github.com/ehsanghaffar/next16-docker-tw4-starter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get Started →
+              </a>
             </button>
             <button className="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-gray-900 dark:text-white bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-200">
               Learn More

@@ -3,7 +3,6 @@ export const DemoBadge = () => (
     <a
       href="https://github.com/ehsanghaffar/next16-docker-tw4-starter"
       target="_blank"
-      rel="noopener noreferrer"
       className="group block"
     >
       <div className="relative overflow-hidden rounded-lg bg-linear-to-r from-blue-600 via-purple-600 to-pink-600 p-0.5 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
