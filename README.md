@@ -2,7 +2,7 @@
 Next.js 16 Starter with PNPM, Tailwind v4+, and Docker
 </h1>
 <p align="center">
-**A batteries-included starter for building production-ready Next.js apps with App Router, PNPM, Tailwind v4+, TypeScript, and a multi-stage Docker setup.**
+A batteries-included starter for building production-ready Next.js apps with App Router, PNPM, Tailwind v4+, TypeScript, and a multi-stage Docker setup.
 </p>
 
 <img src="public/screenshot.png" alt="Next.js 16 Starter"  style="display: block; margin: 0 auto; border-radius: 10px; max-width: 90%;" />
