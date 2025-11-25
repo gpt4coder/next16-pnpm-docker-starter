@@ -1,0 +1,11 @@
+services:
+  next16-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runner
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    command: ["node", "server.js"]
