@@ -44,6 +44,9 @@ USER nextjs
 
 EXPOSE 3000
 
+# Healthcheck for Docker
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 CMD wget -q --spider http://localhost:3000/ || exit 1
+
 ENV PORT 3000
 ENV HOSTNAME "0.0.0.0"
 
