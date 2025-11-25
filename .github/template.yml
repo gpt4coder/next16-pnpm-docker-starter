@@ -1,0 +1,10 @@
+name: "Nextjs v16 Starter with PNPM, TypeScript, Tailwind v4+, and Docker"
+description: "A production-ready Next.js v16 template using PNPM, TypeScript, Tailwind v4+, and multi-stage Docker."
+labels:
+  - template
+  - nextjs
+  - starter
+  - docker
+  - typescript
+  - pnpm
+  - web
