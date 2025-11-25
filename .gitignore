@@ -8,9 +8,6 @@ node_modules/
 .vercel/
 .DS_Store
 
-# Ignore the user's special dir per request
-.ignore-files/
-
 # Build outputs
 out/
 build/

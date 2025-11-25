@@ -1,9 +1,10 @@
 {
   "name": "next16-tw4-docker-starter",
+  "description": "A starter template for Next.js 16 with Tailwind CSS 4, Next-auth v5, and Docker support.",
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=18.18.0"
+    "node": ">=20.0.0"
   },
   "author": {
     "name": "Ehsan Ghaffar",
