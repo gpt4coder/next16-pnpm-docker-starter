@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-16-docker-tailwind-auth-starter",
+  "name": "next16-tw4-docker-starter",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -20,12 +20,15 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
     "lucide-react": "^0.554.0",
     "next": "16.0.4",
     "next-auth": "5.0.0-beta.30",
     "next-themes": "^0.4.6",
+    "postcss": "^8.5.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "tailwindcss": "^4.1.17",
     "zod": "^4.1.13"
   },
   "devDependencies": {
