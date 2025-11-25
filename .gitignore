@@ -18,3 +18,4 @@ build/
 # Editor files
 .vscode/
 .idea/
+chat.json
