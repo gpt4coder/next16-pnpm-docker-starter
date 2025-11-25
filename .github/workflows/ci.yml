@@ -8,24 +8,27 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  cache-and-install-and-build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
         with:
-          version: 9
+          version: 10
+          run_install: false
 
-      - name: Use Node.js
+      - name: Install Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: "pnpm"
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       - name: Lint
         run: pnpm lint
