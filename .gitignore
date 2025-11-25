@@ -1,0 +1,20 @@
+# Node
+node_modules/
+.pnpm-store/
+.next/
+.dist/
+.env.local
+.env.*
+.vercel/
+.DS_Store
+
+# Ignore the user's special dir per request
+.ignore-files/
+
+# Build outputs
+out/
+build/
+
+# Editor files
+.vscode/
+.idea/
